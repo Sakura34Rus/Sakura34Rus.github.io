@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JSSSS</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <nav class="header__inner">
+        <a class="logo" href="#">
+          <img class="logo-img" src="images/logo.png">
+        </a>
+        <div class="menu__btn">
+          <span></span>
+        </div>
+        <ul class="header-menu">
+          <li class="header-item">
+            <a class="header-link" href="#">
+              Компания
+            </a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="#">
+              Блог
+            </a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="#">
+              Контакты
+            </a>
+          </li>
+        </ul>
+        <div class="header-authorities">
+          <a class="header-authorities__link" href="#">Вход</a>
+          <a class="header-authorities__link" href="#">Регистрация</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="value">
+    <div class="container-big">
+      <div class="value__inner">
+        <img class="value-2" src="images/value-2.png" alt="value">
+        <img class="value-1" src="images/value-1.png" alt="value">
+        <img class="value-3" src="images/value-3.png" alt="value">
+        <img class="value-4" src="images/value-4.png" alt="value">
+        <h1 class="value-title">
+          Мультивалютный обменный сервис 24/7
+        </h1>
+        <p class="value-text">
+          Быстрый обмен без скрытых комиссий
+        </p>
+        <div class="value__block">
+          <div class="value__block__inner">
+            <div class="value__block-col">
+              <h5 class="value__block-title">
+                Вы отдаете
+              </h5>
+              <p class="value__block-text">
+                Сумма
+              </p>
+              <div class="value__block-change">
+                <input class="value__block-change__input" type="text" name="money" value="1000">
+                <img class="value__block-change__img" src="images/value-1.svg" alt="value">
+                <div class="value__block-change__inner">
+                  <div class="value__block-change__inner-title" data-value="">
+                    RUB
+                  </div>
+                  <div class="value__block-change__inner-options">
+                    <p data-value="ru">RUB</p>
+                    <p data-value="usd">USD</p>
+                    <p data-value="euro">EURO</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <svg class="arrows" width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.292 7.37702L12.9846 8.06963L16.4231 4.63112C16.6135 4.43952 16.6135 4.13011 16.4231 3.93851L12.9846 0.5L12.292 1.19753L14.8954 3.79606H0.851562V4.77849H14.8954L12.292 7.37702Z" fill="#868DAA"/>
+              <path d="M16.5708 12.7721H2.527L5.13044 10.1736L4.43292 9.47607L0.994414 12.9146C0.803945 13.1062 0.803945 13.4156 0.994414 13.6072L4.43292 17.0457L5.12553 16.3531L2.527 13.7546H16.5708V12.7721Z" fill="#868DAA"/>
+            </svg>
+            <div class="value__block-col aass">
+              <div class="value__block-name">
+                <h5 class="value__block-title">
+                  Вы получете
+                </h5>
+                <p class="value__block-posttitle">
+                  c учетом комиссии ПС (0.5%)
+                </p>
+              </div>
+              <p class="value__block-text">
+                Сумма
+              </p>
+              <div class="value__block-change">
+                <input class="value__block-change__input" type="text" name="money" value="1000">
+                <img class="value__block-change__img" src="images/value-2.svg" alt="value">
+                <div class="value__block-change__inner">
+                  <div class="value__block-change__inner-title--1" data-value="">
+                    RUB
+                  </div>
+                  <div class="value__block-change__inner-options--1">
+                    <p data-value="ru">RUB</p>
+                    <p data-value="usd">USD</p>
+                    <p data-value="euro">EURO</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="value__block-btn">Обменять</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="container-small">
+      <div class="info__inner">
+        <div class="info__block">
+          <img class="info__block-img" src="images/info-1.png">
+          <h4 class="info__block-title">
+            Безопасность
+          </h4>
+          <p class="info__block-text">
+            Усиленная безопасность ваших обменов, усиленная безопасность от мошенников!
+          </p>
+        </div>
+        <div class="info__block">
+          <img class="info__block-img asss" src="images/info-2.png">
+          <h4 class="info__block-title">
+            Реферальная система
+          </h4>
+          <p class="info__block-text">
+            На сервисе работает партнерская программа , за каждый обмен приведенного вами клиента, вы получаете 0.5% с нашей прибыли.
+          </p>
+        </div>
+        <div class="info__block">
+          <img class="info__block-img" src="images/info-3.png">
+          <h4 class="info__block-title">
+            Онлайн поддержка
+          </h4>
+          <p class="info__block-text">
+            Четыре вида поддержки для наших клиентов:  Телеграмм канал, E-mail поддержка, и мобильный номер (Viber).
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="story">
+    <div class="container-supersmall">
+      <div class="story__inner">
+        <h2 class="story-title title">
+          Сервис обмена электронных валют с 5-летней историей
+        </h2>
+        <p class="story-text">
+          За время работы мы приобрели репутацию проверенного партнера и делаем все возможное, чтобы ваши впечатления от нашего сервиса были только благоприятными.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="reserve">
+    <div class="container-small">
+      <h2 class="reserve-title title">
+        Резерв валюты
+      </h2>
+      <div class="reserve__inner">
+        <div class="reserve-block">
+          <div class="reserve__paint">
+            <img class="reserve__paint-img" src="images/reserve-1.svg">
+          </div>
+          <div class="reserve__content">
+            <p class="reserve__content-title">
+              Yandex RUB
+            </p>
+            <h6 class="reserve__content-count">
+              900549
+            </h6>
+          </div>
+        </div>
+        <div class="reserve-block">
+          <div class="reserve__paint">
+            <img class="reserve__paint-img" src="images/reserve-2.svg">
+          </div>
+          <div class="reserve__content">
+            <p class="reserve__content-title">
+              Ethereum ETH
+            </p>
+            <h6 class="reserve__content-count">
+              123
+            </h6>
+          </div>
+        </div>
+        <div class="reserve-block">
+          <div class="reserve__paint">
+            <img class="reserve__paint-img" src="images/reserve-3.svg">
+          </div>
+          <div class="reserve__content">
+            <p class="reserve__content-title">
+              Bitcoin BTC
+            </p>
+            <h6 class="reserve__content-count">
+              0.63333439
+            </h6>
+          </div>
+        </div>
+        <div class="reserve-block">
+          <div class="reserve__paint">
+            <img class="reserve__paint-img" src="images/reserve-4.svg">
+          </div>
+          <div class="reserve__content">
+            <p class="reserve__content-title">
+              Сбербанк  RUB
+            </p>
+            <h6 class="reserve__content-count">
+              142666
+            </h6>
+          </div>
+        </div>
+        <div class="reserve-block">
+          <div class="reserve__paint">
+            <img class="reserve__paint-img" src="images/reserve-5.svg">
+          </div>
+          <div class="reserve__content">
+            <p class="reserve__content-title">
+              Приват 24 UAH
+            </p>
+            <h6 class="reserve__content-count">
+              142666
+            </h6>
+          </div>
+        </div>
+        <div class="reserve-block">
+          <div class="reserve__paint">
+            <img class="reserve__paint-img" src="images/reserve-6.svg">
+          </div>
+          <div class="reserve__content">
+            <p class="reserve__content-title">
+              PayPal USD
+            </p>
+            <h6 class="reserve__content-count">
+              5139.58
+            </h6>
+          </div>
+        </div>
+        <div class="reserve-block">
+          <div class="reserve__paint">
+            <img class="reserve__paint-img" src="images/reserve-7.svg">
+          </div>
+          <div class="reserve__content">
+            <p class="reserve__content-title">
+              PM USD
+            </p>
+            <h6 class="reserve__content-count">
+              3192.22
+            </h6>
+          </div>
+        </div>
+        <div class="reserve-block">
+          <div class="reserve__paint">
+            <img class="reserve__paint-img" src="images/reserve-8.svg">
+          </div>
+          <div class="reserve__content">
+            <p class="reserve__content-title">
+              Qiwi RUB
+            </p>
+            <h6 class="reserve__content-count">
+              99243.321
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="talks">
+    <div class="container-small">
+      <h2 class="talks-title title">
+        Что клиенты говорят о нас
+      </h2>
+      <div class="talks__inner">
+        <div class="talks__content">
+          <p class="talks__content-text">
+            Киви переправил деньги не на кошелек а на номер мтс будьте внимательны.даже в этом случаи делают возврат и переводят на приват.особая благодарность оператору Марии.
+          </p>
+          <div class="talks__content-info">
+            <h5 class="talks__content-name">
+              Jacob Robertson
+            </h5>
+            <p class="talks__content-time">
+              20.02.2020, 12:10
+            </p>
+          </div>
+        </div>
+        <div class="talks__content">
+          <p class="talks__content-text">
+            3-й раз выполняю обмен. все как всегда на отлично! транзакции выполняются в течение 15-20 мин. что очень быстро + лучший ценник!
+          </p>
+          <div class="talks__content-info">
+            <h5 class="talks__content-name">
+              Morris Robertson
+            </h5>
+            <p class="talks__content-time">
+              17.02.2020, 18:51
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="exchange">
+    <div class="container">
+      <div class="exchange__inner">
+        <div class="exchange-position__img">
+          <img class="exchange-img" src="images/exchange-1.png">
+        </div>
+        <div class="exchange__content">
+          <h2 class="exchange__content-title title">
+            Будем рады предоставить Вам качественный обмен валют на нашем сервисе!
+          </h2>
+          <p class="exchange__content-text">
+            Начните обмен прямо сейчас
+          </p>
+          <button class="exchange__content-btn">Начать обмен</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <nav class="footer__inner">
+        <a class="logo" href="#">
+          <img class="logo-img" src="images/logo.png">
+        </a>
+        <ul class="footer-menu">
+          <li class="footer-item">
+            <a class="footer-link" href="#">
+              Карта сайта
+            </a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="#">
+              Предупреждение
+            </a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="#">
+              Правила сайта
+            </a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="#">
+              Обмен
+            </a>
+          </li>
+        </ul>
+        <ul class="footer-social">
+          <li class="footer-scoial__item">
+            <a class="footer-scoial__link" href="#">
+              <img class="footer-scoial__img" src="images/social-1.svg">
+            </a>
+          </li>
+          <li class="footer-scoial__item">
+            <a class="footer-scoial__link" href="#">
+              <img class="footer-scoial__img" src="images/social-2.svg">
+            </a>
+          </li>
+          <li class="footer-scoial__item">
+            <a class="footer-scoial__link" href="#">
+              <img class="footer-scoial__img" src="images/social-3.svg">
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <p class="footer-text">
+        Сервис обмена электронных валют
+      </p>
+    </div>
+  </footer>
+
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
