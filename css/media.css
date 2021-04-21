@@ -1,0 +1,150 @@
+@media (max-width: 1180px){
+	.top__inner{
+		background-image: none;
+	}
+	.info-img{
+		width: 45%;
+		padding-right: 5px;
+	}
+	.guide-img{
+		width: 45%;
+	}
+	.stories__blocks{
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.stories__block{
+		margin: 0 5px;
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 850px){
+	.header__inner{
+		flex-wrap: wrap;
+	}
+	.menu{
+		width: 100%;
+		order: 1;
+	}
+	.menu__list{
+		justify-content: flex-end;
+	}
+	.info-img{
+        width: 80%;
+        padding-right: 0;
+    }
+    .info__inner{
+        flex-wrap: wrap;
+    }
+    .info__content {
+        max-width: 100%;
+    }
+    .slider{
+		margin: 0;
+	}
+	.guide__inner{
+		flex-wrap: wrap;
+	}
+	.guide__content{
+		max-width: 100%;
+	}
+	.guide-img{
+		order: -1;
+		width: 80%;
+	}
+	.people__inner{
+        flex-wrap: wrap;
+    }
+    .people__inf-img {
+        order: -1;
+        margin-bottom: 30px;
+    }
+    .footer__inner{
+    	flex-wrap: wrap;
+    	justify-content: space-around;
+    }
+    .footer__text {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer__menu{
+    	margin-bottom: 30px;
+    }
+}
+@media (max-width: 580px){
+	.stories__blocks{
+        justify-content: space-between;
+    }
+    .title{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .top__form{
+        width: auto;
+    }
+    .top__form-input{
+        width: 230px;
+    }
+    .top__title{
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .info,
+    .guide,
+    .people__inf-img{
+        padding: 50px 0 0px;
+    }
+    .people{
+        padding-bottom: 0px;
+    }
+    .stories{
+        padding: 60px 0 0px;
+    }
+    .footer__social{
+        padding: 30px 0 30px;
+    }
+}
+
+@media (max-width: 425px){
+	.header__inner{
+		padding-top: 10px;
+		height: 90px;
+     }
+	.user-nav{
+        margin-left: 0; 
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .menu__list{
+		display: block;
+		position: absolute;
+		left: 0;
+		right: 0;
+		background-color: #fff;
+		transition: all .5s;
+		text-align: center;
+		transform: translateY(-300%);
+	}
+	.menu__list.menu__list--active{
+		transform: translateY(-30%);
+		transition: all .5s;
+	}
+	.menu__btn{
+		display: block;
+		position: absolute;
+		right: 10px;
+		top: 15px;
+	}
+	.menu__list-item + .menu__list-item{
+		margin-left: 0;
+	}
+	.menu__list-link{
+		display: block;
+		padding: 10px 0;
+	}
+	.destinations__nav-title{
+		max-width: 175px;
+	}
+}
+
